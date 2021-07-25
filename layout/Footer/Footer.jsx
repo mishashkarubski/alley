@@ -1,4 +1,3 @@
-import { FooterProps } from "./Footer.props";
 import cn from "classnames";
 import {format} from 'date-fns';
 import styles from './Footer.module.css';
@@ -8,9 +7,9 @@ import InstagramIcon from './Instagram.svg';
 import TelegramIcon from './Telegram.svg';
 import VKIcon from './VK.svg';
 
-export const Footer = ({className, ...props}: FooterProps): JSX.Element => {
+export const Footer = ({className}) => {
     return (
-        <footer className={cn(className, styles.footer)} {...props}>
+        <footer className={cn(className, styles.footer)}>
             <div className={styles.social}>
                 <P className={styles.paragraph}>My social media: </P>
                 <div className={styles.icons}>

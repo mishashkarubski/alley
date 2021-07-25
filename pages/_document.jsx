@@ -1,14 +1,13 @@
 import Document, {Html, Head, Main, NextScript, DocumentContext, DocumentInitialProps} from "next/document";
-import {JSX} from "@babel/types";
 
 class MyDocument extends Document {
 
-    static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
+    static async getInitialProps(ctx) {
         const initialProps = await Document.getInitialProps(ctx);
         return {...initialProps};
     }
 
-    render(): JSX.Element {
+    render() {
         return (
             <Html lang="ru">
                 <Head />

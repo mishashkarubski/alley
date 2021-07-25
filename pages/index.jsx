@@ -1,15 +1,12 @@
-import {P} from "../components/P/P";
-import {Tag} from "../components/Tag/Tag";
-import {LinkButton} from "../components/LinkButton/LinkButton";
 import {withLayout} from "../layout/Layout";
 import {Card} from "../components/Card/Card";
-import {InferGetStaticPropsType} from "next";
 
-function Home({projects}: InferGetStaticPropsType<typeof getStaticProps>): JSX.Element {
+
+function Home({projects}) {
     return (
         <>
             {projects
-                .map((project: Record<string, never>) => (
+                .map((project) => (
                     <Card
                         title={project.title}
                         text={project.text}
@@ -26,7 +23,7 @@ function Home({projects}: InferGetStaticPropsType<typeof getStaticProps>): JSX.E
 
 export default withLayout(Home);
 
-export async function getStaticProps(): Promise<Record<string, unknown>> {
+export async function getStaticProps() {
 
     let projects = Object.entries((await import('../data/projects.json')).default);
     projects = projects.map(([key, project]) => ({
