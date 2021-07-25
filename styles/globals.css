@@ -3,18 +3,9 @@ body {
 	margin: 0;
 	padding: 0;
 
-	font-family:
-		-apple-system,
-		BlinkMacSystemFont,
-		Segoe UI,
-		Roboto,
-		Oxygen,
-		Ubuntu,
-		Cantarell,
-		Fira Sans,
-		Droid Sans,
-		Helvetica Neue,
-		sans-serif;
+	background: #F8F8F8;
+
+	font-family: var(--font-family);
 }
 
 a {
@@ -25,4 +16,17 @@ a {
 
 * {
 	box-sizing: border-box;
+}
+
+:root {
+	--font-family: 'Poppins', sans-serif;
+	--background: #F8F8F8;
+	--white: white;
+	--black: #0C0C0C;
+	--green: #42D373;
+	--yellow: #DFE13E;
+	--purple: #BC63E1;
+	--grey: #9C9C9C;
+	--orange: #E78A56;
+	--blue: #2388E4;
 }

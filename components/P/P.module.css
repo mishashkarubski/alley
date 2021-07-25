@@ -1,0 +1,27 @@
+.p {
+	color: var(--black);
+
+	font-weight: 500;
+}
+
+.m {
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.l {
+	font-size: 36px;
+	line-height: 54px;
+}
+
+@media (max-width: 500px) {
+	.m {
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.l {
+		font-size: 18px;
+		line-height: 27px;
+	}
+}

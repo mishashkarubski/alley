@@ -1,0 +1,37 @@
+{
+  "trail.by": {
+    "title": "trail.by",
+    "text": "Trail helps you discover the world of ecotourism in Belarus. We have collected a variety of eco-trails from all over Belarus so that everyone can find a route to their liking",
+    "type": "Website",
+    "link": "https://trail.by",
+    "git": "https://github.com/mishashkarubski/trail.by",
+    "ready": true
+  },
+
+  "pizza order bot": {
+    "title": "pizza order bot",
+    "text": "",
+    "type": "Telegram bot",
+    "link": null,
+    "git": "https://github.com/mishashkarubski",
+    "ready": false
+  },
+
+  "seebelarus.by": {
+    "title": "seebelarus.by",
+    "text": "",
+    "type": "Website",
+    "link": "https://seebelarus-next.vercel.app",
+    "git": "https://github.com/mishashkarubski/seebelarus_next",
+    "ready": true
+  },
+
+  "2021 landscape": {
+    "title": "2021 landscape",
+    "text": "",
+    "type": "Blender",
+    "link": null,
+    "git": "https://github.com/mishashkarubski",
+    "ready": false
+  }
+}

@@ -1,0 +1,10 @@
+.header {
+	text-align: center;
+	padding: 244px 0;
+}
+
+@media (max-width: 500px) {
+	.header {
+		padding: 150px 50px;
+	}
+}
