@@ -10,7 +10,7 @@
 
   "pizza order bot": {
     "title": "pizza order bot",
-    "text": "",
+    "text": "This bot's purpose is to make pizza order easier and faster. Though it has limited functionality it is still pretty good for some small orders. But... actions speak louder than words, try it!",
     "type": "Telegram bot",
     "link": null,
     "git": "https://github.com/mishashkarubski",
@@ -23,7 +23,7 @@
     "type": "Website",
     "link": "https://seebelarus-next.vercel.app",
     "git": "https://github.com/mishashkarubski/seebelarus_next",
-    "ready": true
+    "ready": false
   },
 
   "2021 landscape": {
