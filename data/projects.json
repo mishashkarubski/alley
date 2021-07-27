@@ -13,7 +13,7 @@
     "text": "This bot's purpose is to make pizza order easier and faster. Though it has limited functionality it is still pretty good for some small orders. But... actions speak louder than words, try it!",
     "type": "Telegram bot",
     "link": null,
-    "git": "https://github.com/mishashkarubski",
+    "git": "https://github.com/mishashkarubski/pizzabot",
     "ready": false
   },
 
